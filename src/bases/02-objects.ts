@@ -17,4 +17,7 @@ export const charmander: Pokemon = {
   age: 1,
 };
 
-console.log("🚀 ~ file: 02-objects.ts ~ line 7 ~ pokemon", pokemon);
+export const pokemons: Pokemon[] = [];
+console.log("🚀 ~ file: 02-objects.ts ~ line 21 ~ pokemons", pokemons);
+
+pokemons.push(pokemon, charmander);

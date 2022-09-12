@@ -1,7 +1,7 @@
+import { pokemons } from "./bases/02-objects";
+import { setupCounter } from "./counter";
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
-import { setupCounter } from "./counter";
-import { pokemonIds } from "./bases/02-objects";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
@@ -16,9 +16,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more ${pokemonIds.join(
-        ","
-      )}!!!
+      Click on the Vite and TypeScript logos to learn more ${pokemons}!!!
     </p>
   </div>
 `;
