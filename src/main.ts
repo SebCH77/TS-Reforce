@@ -1,4 +1,4 @@
-import { pokemons } from "./bases/02-objects";
+import { charmander } from "./bases/03-classes";
 import { setupCounter } from "./counter";
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
@@ -16,7 +16,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more ${pokemons}!!!
+      Click on the Vite and TypeScript logos to learn more ${charmander}!!
     </p>
   </div>
 `;
